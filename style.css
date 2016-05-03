@@ -1,0 +1,38 @@
+body {
+	background: #3ccf80;
+	margin: 0;
+	font-family: sans-serif;
+	color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.city {
+  font-size: 35px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+a.btn {
+  border: 1px solid;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 20px 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.btn:hover {
+  background-color: #FFFFFF;
+  color: #3ccf80;
+}
