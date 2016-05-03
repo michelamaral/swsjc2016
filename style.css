@@ -14,6 +14,10 @@ a {
   color: #ffffff;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 .city {
   font-size: 35px;
 }
