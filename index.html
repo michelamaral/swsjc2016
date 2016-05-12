@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,8 @@
   <title>Startup Weekend 2016 | São José dos Campos/SP | 15, 16 e 17 de Julho</title>
   <meta name="description" content="O evento Startup Weekend 2016 São José dos Campos será realizado nos dias 15, 16 e 17 de Julho.">
 
-  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <meta property="og:title" content="Startup Weekend 2016 | São José dos Campos/SP | 15, 16 e 17 de Julho">
 
@@ -20,13 +21,17 @@
 
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flipclock.css">
 
   <link rel="canonical" href="http://swsjc.com.br">
+  
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <script src="flipclock.min.js"></script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-24472225-7', 'auto');
@@ -35,26 +40,107 @@
 </head>
 
 <body>
+
+  <header>
+    <img src="images/logo.svg" alt="">
+    <div class="headline">
+      <h1>
+        Eu vou criar uma empresa em <em>54 horas</em>!
+        <small>E você, o que vai fazer no seu final de semana?</small>
+      </h1>
+      <h2> 15, 16 e 17 de Julho </h2> 
+      <a href="http://www.up.co/communities/brazil/sao-jose-dos-campos/startup-weekend/9122" target="_blank" class="btn btn-lg btn-outline">Saiba mais no site oficial</a>
+    </div>
+  </header>
+  
   <section>
-    <h1>Startup Weekend 2016</h1>
-    <p class="city">São José dos Campos/SP</h2>
-    <p class="date">15, 16, 17 de Julho</p>
+  
+    <article class="info">
+      <h1> Quer participar?</h1>
+      <div class="row">
+        <div class="container">
+            <div class="text-center place">
+              <img src="images/pinmap.svg" alt="">
+              <div class="text">
+                <h2>Conexão FGV</h2>
+                <p>CenterVale Shopping <br> São José dos Campos/SP </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="text-center date">
+            <a href="https://www.sympla.com.br/startup-weekend-sao-jose-dos-campos---julho-2016__62407" target="_blank" class="btn btn-lg btn-outline subscription">Inscreva-se já</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="media-kit">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h1> Quer apoiar? <small>Conheça nosso MídiaKit</small></h1>
+            <a href="downloads/Startup Weekend SJC 2016 - Midia Kit.pdf" target="_blank">
+              <img src="images/media_kit_cover.png" alt="">
+            </a>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <h1> Já se inscreveu? <small>Baixe o Guia do Participante</small></h1>
+            <a href="downloads/Startup Weekend Guia do Participante Português.pdf" target="_blank">
+              <img src="images/guia_cover.png" alt="">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <a href="http://bit.ly/swsjc2016" target="_blank" class="btn">Site oficial</a>
-    <a href="http://bit.ly/swsjc2016-inscricoes" target="_blank" class="btn">Inscrições</a>
-  </section>
 
-  <section>
-    <a href="https://www.facebook.com/startupweekendsjc" target="_blank">Facebook</a> |
-    <a href="https://twitter.com/swsjc" target="_blank">Twitter</a> |
-    <a href="https://www.instagram.com/swsjc/" target="_blank">Instagram</a>
-  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <img src="images/logo.svg" class="logo" alt="">
+        </div>
+        <div class="col-xs-12 col-md-6">
 
+        </div>
+        <div class="col-xs-12 col-md-3 social">
+          <a href="https://www.facebook.com/startupweekendsjc" target="_blank">Facebook</a>
+          <a href="https://twitter.com/swsjc" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/swsjc/" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+<script type="text/javascript">
+      var clock;
 
+      $(document).ready(function() {
 
+        // Grab the current date
+        var currentDate = new Date();
+
+        // Set some date in the future. In this case, it's always Jan 1
+        var futureDate  = new Date(2016,6,15);
+
+        // Calculate the difference in seconds between the future and current date
+        var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+        // Instantiate a coutdown FlipClock
+        clock = $('.clock').FlipClock(diff, {
+          clockFace: 'DailyCounter',
+          countdown: true,
+          language: 'pt-br'
+        });
+      });
+    </script>
 
 </body>
 
