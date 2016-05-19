@@ -158,3 +158,8 @@ footer .social a {
 footer img.logo {
   width: 50%;
 }
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
